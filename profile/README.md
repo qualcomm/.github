@@ -5,9 +5,9 @@ Head over to the **Qualcomm Innovation Center, Inc. (QuIC)** GitHub main page to
 Explore our organizations and repositories:
 
 * Learn about **AI Model Efficiency Toolkit (AIMET)** and other projects from Qualcomm Innovation Center, Inc.: [github.com/quic](https://github.com/quic)
-* Yocto layers to support Qualcomm Linux: [github.com/quic-yocto](https://github.com/quic-yocto)
-* Snapdragon Studios: [github.com/SnapdragonStudios](https://github.com/SnapdragonStudios)
-* Audioreach™, a complete end-to-end audio software solution: [github.com/audioreach](https://github.com/audioreach)
+* **QuIC Yocto** layers to support Qualcomm Linux: [github.com/quic-yocto](https://github.com/quic-yocto)
+* **Snapdragon Studios**: [github.com/SnapdragonStudios](https://github.com/SnapdragonStudios)
+* **Audioreach™**, a complete end-to-end audio software solution: [github.com/audioreach](https://github.com/audioreach)
 * Explore our Systems on Chips, hardware and software development kits and tools at our website: [qualcomm.com/developer](https://qualcomm.com/developer)
 
 **Got technical questions?** Join our developer community at Discord: [discord.gg/qualcommdevelopernetwork](https://discord.gg/qualcommdevelopernetwork)
