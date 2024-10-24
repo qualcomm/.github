@@ -11,7 +11,7 @@ Explore our organizations and repositories:
 * **Qualcomm® Robotics ROS**: [github.com/quic-qrb-ros](https://github.com/quic-qrb-ros) 
 * Explore our Systems on Chips, hardware and software development kits and tools at our website: [qualcomm.com/developer](https://qualcomm.com/developer)
 
-**Got technical questions?** Join our developer community at Discord: [discord.gg/qualcommdevelopernetwork](https://discord.gg/qualcommdevelopernetwork)
+Join our **Discord** community to directly engage with Qualcomm experts, connect with other developers working with Qualcomm technology, and stay updated on the latest developer-focused news and product demos: [discord.com/invite/QualcommDeveloperNetwork](https://discord.com/invite/qualcommdevelopernetwork)
 
 *Qualcomm branded products are products of Qualcomm Technologies, Inc. and/or its subsidiaries. AIMET and AudioReach are products of Qualcomm Innovation Center, Inc.*
 
