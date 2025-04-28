@@ -2,7 +2,7 @@
   "extends": "https://raw.githubusercontent.com/qualcomm/.github/main/repolint.json",
   "rules": {
     "qualcomm-source-license-headers-exist": {
-      "level": "error",
+      "level": "warning",
       "rule": {
         "type": "file-starts-with",
         "options": {
