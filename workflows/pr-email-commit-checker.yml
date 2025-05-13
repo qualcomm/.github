@@ -1,6 +1,6 @@
 name: PR email addresses checker
 
-on: [pull_request, workflow_call]
+on: pull_request
 
 # If using this action on a private/internal repo, you must grant read access to PRs
 permissions:
