@@ -1,4 +1,4 @@
-name: PR email addresses checker
+name: Qualcomm PR email addresses checker
 
 on: pull_request
 
