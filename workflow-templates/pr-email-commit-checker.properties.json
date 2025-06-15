@@ -1,5 +1,0 @@
-{
-    "name": "Qualcomm PR email addresses checker",
-    "description": "Runs a check on every email address used in commits in a PR to ensure compliance with Qualcomm policy.",
-    "iconName": "octicon mail"
-}
