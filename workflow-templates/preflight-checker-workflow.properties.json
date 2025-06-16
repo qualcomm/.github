@@ -1,5 +1,5 @@
 {
-    "name": "QLI Preflight Checker Workflow",
-    "description": "Workflow runs preflight checks on your code, with optional individual checker disablement",
+    "name": "Qualcomm Preflight Checker Workflow",
+    "description": "This workflow runs preflight checks on your contributions, with optional individual checker disablement",
     "iconName": "checker"
 }
