@@ -2,21 +2,34 @@
 
 This repo contains workflow templates and other org level config and files
 
-## Qualcomm Repolinter GitHub Action
+## Qualcomm Preflight Checker Workflow
 
-Qualcomm repos should enable the Repolinter GitHub Action upon creation. This action runs the Repolinter tool, which lints open source repositories for common issues.
+Qualcomm repos should enable Qualcomm Preflight Checker Workflow upon creation. This action runs several checks.
 
 ### Initial setup
 
 1. Navigate to the new repo
-1. Click on Actions
-1. If you have existing actions in the repo, click "New workflow", else skip to next step
-1. Locate the "By Qualcomm" section and click "Configure" under "Qualcomm Organization Repolinter Workflow"
-1. Click "Commit changes...", select "Commit directly to the main branch" (or feel free to create a new branch and start a PR), ensure your Qualcomm email is selected under "Commit Email", and then click "Sign off and commit changes"
-1. This will create a GitHub Action config file in your repo under the path `.github/workflows/qualcomm-organization-repolinter.yml`
-1. Adjust it as needed, e.g. the Repolinter action is configured to run on Push and Pull Requests into the main/master branch, but you may want to further adjust when it runs.
-
-### Customize Repolinter Rules
+2. Click on Actions
+3. If you have existing actions in the repo, click "New workflow", else skip to next step
+4. Locate the "By Qualcomm Technologies, Inc." section and click "Configure" under "Qualcomm Preflight Checker Workflow"
+5. Click "Commit changes...", select "Commit directly to the main branch" (or feel free to create a new branch and start a PR), ensure your Qualcomm email is selected under "Commit Email", and then click "Sign off and commit changes"
+6. This will create a GitHub Action config file in your repo under the path `.github/workflows/preflight-checker-workflow.yml`
+7. In the `preflight-checker-workflow.yml` file, you can control which checkers are active by setting their values under the `with` section of the `checker` job. By default, all checkers are **enabled** (i.e., their values are set to `true`). You can modify these values based on your project’s requirements.
+    ```
+      with:
+        repolinter: true                
+        semgrep: true     
+        copyright-license-detector: true
+        pr-check-emails: true
+    ```
+    To disable a specific checker, simply change its value to false. For example, to disable Semgrep
+    ```
+      semgrep: false
+    ```
+    All checkers are triggered on `pull_request` events. However, on `push` events, only the `repolinter` and `pr-check-emails` checkers are executed. This allows for more comprehensive checks during pull requests, while keeping push events focused on essential validations.
+### Repolinter
+This action runs the Repolinter tool, which lints open source repositories for common issues.
+#### Customize Repolinter Rules
 
 When the GitHub Action is run, it first checks your Qualcomm repo for a local `repolint.json` file at the root directory. If it doesn't find one it'll use the default Qualcomm Repolinter ruleset, which is located here https://github.com/qualcomm/.github/blob/main/repolint.json
 
@@ -120,3 +133,14 @@ For example, to only check `.c` files in a specific directory (e.g., `/src`) in 
 ```
 
 3. For more information on Repolinter rules and options, see [Repolinter rules](https://github.com/todogroup/repolinter/blob/main/docs/rules.md)
+
+### Semgrep
+Semgrep is an open-source static analysis tool designed to identify patterns in code and detect security vulnerabilities. It supports multiple programming languages such as C/C++, Python, JavaScript, Java and Go. Integrating Semgrep into GitHub Actions aims to enhance your development workflow by automating code vulnerability detection. 
+
+### Copyright-License-Detector
+It checks for copyright and license issues in a repository. It uses the scancode library to detect licenses and the patch library to parse patch files.
+For more information on Copyright-License-Detector, see [Copyright-License-Detector](https://github.com/qualcomm/copyright-license-checker-action).
+
+### pr-check-emails
+For each commit in a PR, validates that the commit's author and committer email addresses are appropriate for the repo.
+For more information on PR-Check-Emails, see [PR-Check-Emails](https://github.com/qualcomm/commit-emails-check-action).
