@@ -1,5 +1,0 @@
-{
-    "name": "Qualcomm Preflight Checker Workflow",
-    "description": "This workflow runs preflight checks on your contributions, with optional individual checker disablement",
-    "iconName": "checker"
-}
