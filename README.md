@@ -2,23 +2,25 @@
 
 This repo contains workflow templates and other org level config and files
 
-## Qualcomm Repolinter GitHub Action
+## Qualcomm Preflight Checks
 
-Qualcomm repos should enable the Repolinter GitHub Action upon creation. This action runs the Repolinter tool, which lints open source repositories for common issues.
+Qualcomm repos should enable **Qualcomm Preflight Checks** upon creation. This workflow runs several preflight checks, including copyight, email, repolinter, and security checks. See [qualcomm/qcom-actions](https://github.com/qualcomm/qcom-actions) for details.
 
 ### Initial setup
 
 1. Navigate to the new repo
 1. Click on Actions
 1. If you have existing actions in the repo, click "New workflow", else skip to next step
-1. Locate the "By Qualcomm" section and click "Configure" under "Qualcomm Organization Repolinter Workflow"
+1. Locate the "By Qualcomm Technologies, Inc." section and click "Configure" under "Qualcomm Preflight Checks"
 1. Click "Commit changes...", select "Commit directly to the main branch" (or feel free to create a new branch and start a PR), ensure your Qualcomm email is selected under "Commit Email", and then click "Sign off and commit changes"
-1. This will create a GitHub Action config file in your repo under the path `.github/workflows/qualcomm-organization-repolinter.yml`
-1. Adjust it as needed, e.g. the Repolinter action is configured to run on Push and Pull Requests into the main/master branch, but you may want to further adjust when it runs.
+1. This will create a GitHub Action config file in your repo under the path `.github/workflows/qcom-preflight-checks.yml`
+1. See [qualcomm/qcom-actions](https://github.com/qualcomm/qcom-actions) for more information and how to disable checks.
 
-### Customize Repolinter Rules
+### Repolinter Check: Customize Rules
 
-When the GitHub Action is run, it first checks your Qualcomm repo for a local `repolint.json` file at the root directory. If it doesn't find one it'll use the default Qualcomm Repolinter ruleset, which is located here https://github.com/qualcomm/.github/blob/main/repolint.json
+> The `qcom-preflight-checks` workflow includes the Repolinter check.
+
+When the Repolinter check runs, it first checks your Qualcomm repo for a local `repolint.json` file at the root directory. If it doesn't find one it'll use the default Qualcomm Repolinter ruleset, which is located here https://github.com/qualcomm/.github/blob/main/repolint.json
 
 To customize the default Qualcomm Repolinter ruleset (e.g. to add some language specific file extensions for the license check), you can extend the default ruleset and override specific rules. In other cases you may have to copy the ruleset locally and edit as needed. See below for examples.
 

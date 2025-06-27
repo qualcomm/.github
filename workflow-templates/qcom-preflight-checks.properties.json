@@ -1,0 +1,5 @@
+{
+    "name": "Qualcomm Preflight Checks",
+    "description": "This workflow runs a series of preflight checks on your proposed contribution.",
+    "iconName": "checker"
+}
