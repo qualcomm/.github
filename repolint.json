@@ -151,7 +151,8 @@
             "**/*.go",
             "**/*.bbclass",
             "**/*.S",
-            "**/*.hpp"
+            "**/*.hpp",
+            "**/*.cs"
           ],
           "skip-paths-matching": {
             "patterns": [
@@ -192,7 +193,8 @@
             "**/*.go",
             "**/*.bbclass",
             "**/*.S",
-            "**/*.hpp"
+            "**/*.hpp",
+            "**/*.cs"
           ],
           "skip-paths-matching": {
             "patterns": [
