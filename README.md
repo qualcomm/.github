@@ -78,7 +78,7 @@ For example, if we wanted to exclude the copyright/license check for a directory
           },
           "lineCount": 60,
           "patterns": [
-            "(Copyright|©).*Qualcomm Innovation Center, Inc|Qualcomm Technologies, Inc|Copyright (\\(c\\)|©) (20(1[2-9]|2[0-2])(-|,|\\s)*)+ The Linux Foundation",
+            "Copyright(\\s)*(\\(c\\)|©)?",
             "SPDX-License-Identifier|Redistribution and use in source and binary forms, with or without"
           ],
           "flags": "i"
