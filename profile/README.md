@@ -6,7 +6,7 @@ Explore our organizations and repositories:
 
 * Learn about **AI Model Efficiency Toolkit (AIMET)** and other projects from Qualcomm Innovation Center, Inc.: [github.com/quic](https://github.com/quic)
 * **Qualcomm Linux**: [github.com/qualcomm-linux](https://github.com/qualcomm-linux)
-* **Snapdragon Studios**: [github.com/SnapdragonStudios](https://github.com/SnapdragonStudios)
+* **Snapdragon Game Studios**: [github.com/SnapdragonGameStudios](https://github.com/SnapdragonGameStudios)
 * **Audioreach™**, a complete end-to-end audio software solution: [github.com/audioreach](https://github.com/audioreach)
 * **Qualcomm® Robotics ROS**: [github.com/quic-qrb-ros](https://github.com/quic-qrb-ros)
 * Discover innovative demos and applications built for Qualcomm platforms: [github.com/qualcomm/Startup-Demos](https://github.com/qualcomm/Startup-Demos) 
