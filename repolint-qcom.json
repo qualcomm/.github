@@ -20,7 +20,8 @@
             "**/*.go",
             "**/*.bbclass",
             "**/*.S",
-            "**/*.hpp"
+            "**/*.hpp",
+            "**/*.cs"
           ],
           "skip-paths-matching": {
             "patterns": [
