@@ -8,7 +8,8 @@ Explore our organizations and repositories:
 * **Qualcomm Linux**: [github.com/qualcomm-linux](https://github.com/qualcomm-linux)
 * **Snapdragon Studios**: [github.com/SnapdragonStudios](https://github.com/SnapdragonStudios)
 * **Audioreach™**, a complete end-to-end audio software solution: [github.com/audioreach](https://github.com/audioreach)
-* **Qualcomm® Robotics ROS**: [github.com/quic-qrb-ros](https://github.com/quic-qrb-ros) 
+* **Qualcomm® Robotics ROS**: [github.com/quic-qrb-ros](https://github.com/quic-qrb-ros)
+* Discover innovative demos and applications built for Qualcomm platforms: [github.com/qualcomm/Startup-Demos](https://github.com/qualcomm/Startup-Demos) 
 * Explore our Systems on Chips, hardware and software development kits and tools at our website: [qualcomm.com/developer](https://qualcomm.com/developer)
 
 Join our **Discord** community to directly engage with Qualcomm experts, connect with other developers working with Qualcomm technology, and stay updated on the latest developer-focused news and product demos: [discord.com/invite/QualcommDeveloperNetwork](https://discord.com/invite/qualcommdevelopernetwork)
