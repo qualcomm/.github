@@ -325,7 +325,7 @@
           "globsAny": [
             "Cartfile",
             "Podfile",
-            "*.podspec"
+            "**/*.podspec"
           ]
         }
       }
