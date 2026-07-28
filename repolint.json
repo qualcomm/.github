@@ -155,6 +155,7 @@
           ],
           "skip-paths-matching": {
             "patterns": [
+              ".eslintrc.js",
               "babel.config.js",
               "build\/",
               "jest.config.js",
@@ -196,6 +197,7 @@
           ],
           "skip-paths-matching": {
             "patterns": [
+              ".eslintrc.js",
               "babel.config.js",
               "build\/",
               "jest.config.js",
