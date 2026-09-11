@@ -14,6 +14,8 @@ Explore our organizations and repositories:
 
 Join our **Discord** community to directly engage with Qualcomm experts, connect with other developers working with Qualcomm technology, and stay updated on the latest developer-focused news and product demos: [discord.com/invite/QualcommDeveloperNetwork](https://discord.com/invite/qualcommdevelopernetwork)
 
+Read our [Open Source Security Policy](https://github.com/qualcomm/.github/blob/main/SECURITY.md) to learn how we handle vulnerability reporting, assessment, remediation, and disclosure across our open source projects.
+
 *Qualcomm branded products are products of Qualcomm Technologies, Inc. and/or its subsidiaries. AIMET and AudioReach are products of Qualcomm Innovation Center, Inc.*
 
 
