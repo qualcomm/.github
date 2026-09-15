@@ -21,6 +21,8 @@ This policy applies to Qualcomm-managed open source repositories and software co
 
 Security researchers and contributors should follow the vulnerability reporting instructions provided in the applicable repository `SECURITY.md` file or other Qualcomm-designated security reporting channels. Vulnerabilities should not be reported through public issues, pull requests, discussions, or other public forums unless explicitly directed otherwise.
 
+> If you are dealing with a not-yet released or urgent issue, please contact us via our [Product Security](mailto:product-security@qualcomm.com) team or see our [Report a Bug](https://www.qualcomm.com/company/product-security/report-a-bug) page.
+
 Reports should include relevant technical information such as affected component, version, impact, reproduction steps, proof-of-concept details where available, and any known exploitability information.
 
 ## 5. Vulnerability Handling Lifecycle
